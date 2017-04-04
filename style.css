@@ -1,0 +1,31 @@
+/*resets the margin and padding to 0 on the page*/
+*, html {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: rgba(0,0,0,0.7);
+}
+.site-wrap {
+    width: 65%;
+    margin: 90px auto 90px auto;
+    padding: 1.5em;
+    background-color: #ffffff;
+}
+h1 {
+    text-align: center;
+    padding: 1.0em;
+}
+p {
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 1.5em;
+}
+.align-left {
+    float: left;
+    margin-right: 1.5em;
+}
+.align-right {
+    float: right;
+    margin-left: 1.5em;
+}
