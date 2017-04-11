@@ -29,3 +29,17 @@ p {
     float: right;
     margin-left: 1.5em;
 }
+.slide-in {
+    opacity: 0;
+    transition: all 0.6s;
+}
+.slide-in.align-left {
+    transform: translateX(-25%);
+}
+.slide-in.align-right {
+    transform: translateX(25%);
+}
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0);
+}
